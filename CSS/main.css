@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.header {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 26px;
+}
+
+main {
+    display: flex;
+    margin-left: 20px;
+}
+
+.keyboard {
+    border: red solid 1px;
+}
+
+.line p {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 7%;
+    width: 60px;
+    font-weight: 600;
+}
+
+
+.line {
+    display: flex;
+}
+
+/* ----------- Linha 1 ----------*/
+
+.line .line1 {
+    display: flex;
+    margin-right: 13px;
+}
+
+/* ----------- Linha 2 ----------*/
+
+.line .line2 {
+    display: flex;
+}
+
+.line2 :last-child {
+    width: 120px;
+}
+
+/* ----------- Linha 3 ----------*/
+
+.line .line3 {
+    display: flex;
+}
+
+.line3 :first-child {
+    width: 90px;
+}
+
+.line3 :last-child {
+    width: 90px;
+    height: 43px;
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* ----------- Linha 4 ----------*/
+
+.line .line4 {
+    display: flex;
+}
+
+.line4 :first-child {
+    width: 115px;
+}
+
+.line4 :last-child {
+    width: 65px;
+    margin-top: 0;
+    border-top-right-radius: 0;
+}
+
+/* ----------- Linha 5 ----------*/
+
+.line .line5 {
+    display: flex;
+}
+
+.line5 :first-child {
+    width: 90px;
+}
+
+.line5 :last-child {
+    width: 90px;
+}
+
+/* ----------- Linha 6 ----------*/
+
+.line .line6 {
+    display: flex;
+}
+
+.line6 p {
+    width: 85px;
+}
+
+#espace {
+    width: 340px;
+}
+
+/* ----------- Numeric ----------*/
+
+.numeric {
+    display: flex;
+}
