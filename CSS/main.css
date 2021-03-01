@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -20,11 +20,7 @@ main {
     margin-left: 20px;
 }
 
-.keyboard {
-    border: red solid 1px;
-}
-
-.line p {
+main p {
     background-color: black;
     color: white;
     font-size: 20px;
@@ -122,5 +118,33 @@ main {
 /* ----------- Numeric ----------*/
 
 .numeric {
+    padding: 2px;
     display: flex;
+    align-items: flex-end;
+}
+
+.bloco2 .num_column :last-child {
+    font-size: 16px;
+    height: 100px;
+}
+
+.num_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco3 {
+    display: flex;
+}
+
+.num_line1 :first-child {
+    width: 125px;
+}
+
+.num_line1 {
+    display: flex;
+}
+
+#num_lock {
+    font-size: 10px;
 }
